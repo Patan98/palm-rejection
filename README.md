@@ -12,7 +12,7 @@ Mainly useful for office programs and notes. <br />
 Some programs like xournalpp have built in this function but, at least for me it worked really badly. <br />
 When I activated pal rejection on xournalpp I had a half second delay from when the pen detached from the screen to when the touch screen actually started working again. <br />
 Disable the xournal feature and use this. <br />
-
+<br />
 ### Important
 Replace:
 'MICROSOFT SAM Stylus Pen (0)' with your pen <br />
@@ -20,8 +20,7 @@ and <br />
 'Atmel Atmel maXTouch Digitizer' with your screen <br />
 <br />
 You can find both in xinput command.
-
-
+<br />
 ### Script 
 ```
 #!/bin/bash
