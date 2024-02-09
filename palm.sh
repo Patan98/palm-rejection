@@ -7,14 +7,14 @@
 #██      ██    ██ ██  ██ ██ ██         ██    ██ ██    ██ ██  ██ ██      ██
 #██       ██████  ██   ████  ██████    ██    ██  ██████  ██   ████ ███████
 #############################################################################################################################################################################
-HELP() #MOSTRA IL MESSAGGIO DI AIUTO
+HELP()
 {
-    echo "Questo script abilita il palm rejection"
+    echo "This script enables palm rejection"
     echo
-    echo "Opzioni:"
-    echo "-h --help            Mostra questo messaggio di aiuto"
+    echo "Options:"
+    echo "-h --help            Show this help message"
     echo ""
-    echo "-m --monitor         Attiva la modalità monitor"
+    echo "-m --monitor         Turn on monitor mode"
     echo ""
 }
 
@@ -25,14 +25,12 @@ MONITOR()
     do
         if [ "$(xinput --query-state 'MICROSOFT SAM Stylus Pen (0)' | grep Proximity= | sed 's/.*Proximity=//')" == "In" ];
         then
-            echo "RILEVATO!"
             if [ "$DISABLED" == "0" ];
             then
                 xinput disable 'Atmel Atmel maXTouch Digitizer'
                 DISABLED=1
             fi
         else
-            echo "non rilevato"
             if [ "$DISABLED" == "1" ];
             then
                 xinput enable 'Atmel Atmel maXTouch Digitizer'
@@ -63,12 +61,12 @@ then
         ;;
 
     *)
-        echo "Usa -h o --help per avere la lista delle opzioni valide e sapere cosa fa il programma"
+        echo "Use -h or --help to get the list of valid options and know what the program does"
         ;;
     esac
 
 elif [ -z "$1" ]
 then
-    echo "Usa -h o --help per avere la lista delle opzioni valide e sapere cosa fa il programma"
+    echo "Use -h or --help to get the list of valid options and know what the program does"
 fi
 #############################################################################################################################################################################
