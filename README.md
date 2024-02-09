@@ -1,3 +1,3 @@
 # palm-rejection
 
-![BANNER](https://github.com/Patan98/palm-rejection/assets/159428129/35cf21cd-ac7e-435e-933d-359546e6c70e)
+![BANNER](https://github.com/Patan98/palm-rejection/assets/159428129/b9e8ab5a-c403-4b5e-93e4-970cccfaeaf3)
