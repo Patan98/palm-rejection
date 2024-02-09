@@ -22,7 +22,7 @@ and <br />
 You can find both in xinput command.
 
 
-#### Script 
+### Script 
 ```
 #!/bin/bash
 
