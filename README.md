@@ -13,7 +13,7 @@ Some programs like xournalpp have built in this function but, at least for me it
 When I activated pal rejection on xournalpp I had a half second delay from when the pen detached from the screen to when the touch screen actually started working again.
 Disable the xournal feature and use this.
 
-### Inportant
+### Important
 Replace:
 'MICROSOFT SAM Stylus Pen (0)' with your pen
 and
