@@ -18,7 +18,7 @@ Replace:
 'MICROSOFT SAM Stylus Pen (0)' with your pen <br />
 and <br />
 'Atmel Atmel maXTouch Digitizer' with your screen <br />
-You can find both in xinput command.
+You can find both in xinput command. <br />
 <br />
 ### Script 
 ```
