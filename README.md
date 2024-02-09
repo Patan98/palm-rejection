@@ -2,7 +2,7 @@
 
 ![BANNER](https://github.com/Patan98/palm-rejection/assets/159428129/b9e8ab5a-c403-4b5e-93e4-970cccfaeaf3)
 
-## Palm rejection (Surface pro Xournalpp useful)
+## Surface pro (not only) Xournalpp useful
 
 Simple script to have palm rejection actually working.
 Some 2-in-1 devices and x86 tablets have built-in palm rejection, others do not.
