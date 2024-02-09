@@ -15,10 +15,10 @@ Disable the xournal feature and use this.
 
 ### Important
 Replace:
-'MICROSOFT SAM Stylus Pen (0)' with your pen
-and
-'Atmel Atmel maXTouch Digitizer' with your screen
-
+'MICROSOFT SAM Stylus Pen (0)' with your pen <br />
+and <br />
+'Atmel Atmel maXTouch Digitizer' with your screen <br />
+<br />
 You can find both in xinput command.
 
 
